@@ -1,4 +1,4 @@
-class Meroxa < Formula
+class Cli < Formula
   desc "The Meroxa CLI"
   homepage "https://meroxa.io/"
   url "https://github.com/meroxa/cli/releases/download/v0.2.2/meroxa_0.2.2_Darwin_x86_64.tar.gz"
