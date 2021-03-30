@@ -1,8 +1,8 @@
 class Meroxa < Formula
   desc "The Meroxa CLI"
   homepage "https://meroxa.io/"
-  url "https://github.com/meroxa/cli/releases/download/v0.2.3/meroxa_0.2.3_Darwin_x86_64.tar.gz"
-  sha256 "678c9b98c05147eda95bc5fde5ff60d1b3f1c75fabf4102816240daaf395b657"
+  url "https://github.com/meroxa/cli/releases/download/v0.3.0/meroxa_0.3.0_Darwin_x86_64.tar.gz"
+  sha256 "4614400016e0aea189e11de2313cd59431391fcdfbf6dd55d7df6ecee39b6f0e"
   license "Apache-2.0"
   
   def install
