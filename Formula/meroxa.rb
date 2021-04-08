@@ -11,19 +11,19 @@ class Meroxa < Formula
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/raulb/cli/releases/download/v0.3.4/meroxa_0.3.4_Darwin_x86_64.tar.gz"
-    sha256 "716f5b772da49ebeb493bec6d7f8ea83e0d968de5b90e6ee961e39a87bb18dcb"
+    sha256 "03d0420788e5ab714b6495cc215e097ab129bd890a0fdd2fd25ac37af89adf07"
   end
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/raulb/cli/releases/download/v0.3.4/meroxa_0.3.4_Darwin_arm64.tar.gz"
-    sha256 "1b75b52ebd3bb045f07a3db35c56e5e77c972e1bdfaf17de744b31299aaed9f7"
+    sha256 "51b55ff6b19f416f685efdfc040557e7b3b34be30d78c38695f2e12e4e3e7637"
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/raulb/cli/releases/download/v0.3.4/meroxa_0.3.4_Linux_x86_64.tar.gz"
-    sha256 "f9b9366ede0a9574ada3d77813fc7dfe00c1a7a647cd8d1caf3552e55baab4a8"
+    sha256 "87f7b2981059a1d2a50a4d6f3f66983656c69173d32a451afe53b4a813094e9c"
   end
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
     url "https://github.com/raulb/cli/releases/download/v0.3.4/meroxa_0.3.4_Linux_arm64.tar.gz"
-    sha256 "ee3265a590bb050dc0f82242d5918250bec6e25ed7b22967b39a772549bd79d0"
+    sha256 "dc2a11b852711321ce0edd120a17381a645d4a2a85119154ecdcf4bfd37c1970"
   end
 
   head "https://github.com/raulb/cli.git"
